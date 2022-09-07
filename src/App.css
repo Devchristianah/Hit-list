@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App{
+    border: 2px solid black;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: linear-gradient(to right bottom,sandybrown);
+    background-image: url(./components/hit\ list\ pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.App-wrapper{
+    
+    min-height: 650px;
+    min-width: 450px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 3px 6px 40px #000;
+    margin-bottom: 10px;
+    background-color:sandybrown;
+}
+.header h1{
+    color:black;
+    text-align: center;
+    margin: 30px;
+}
+.taskinput{
+    outline: none;
+    width: 260px;
+    padding: 15px;
+    margin-right: 25px;
+    font-size: 20px;
+    color: black;
+    border: 1px solid sandybrown;
+    border-radius: 10px;
+}
+.btn{
+    width: 70px;
+    padding: 15px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #f1af71;
+    cursor: pointer;
+}
+.textBar{
+    background-color: rgb(176, 226, 176);
+    transition: all 0.3s ease-out;
+    box-shadow: 1px 1px 1px black;
+    width: 96%;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 0.5rem auto;
+    text-align: start;
+    display: flex; 
+    font-size: x-large; 
+    font-weight: 300;
+    color: black;
+    text-decoration: solid;
+}
+.rowsCompleted {
+    background-color: cadetblue;
+    width: 90%;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 0.5rem auto;
+    text-align: start;
+    display: flex;  
+    text-decoration: line-through;
+}
+.todo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 45%;
+    min-height: 400px;
+    background-color: aliceblue;
+    text-align: center;
+    margin: 128px auto;
+    border-radius: 10px;
+    padding-bottom: 32px;
+}
+.icons{
+    margin-left: auto;
+    cursor: pointer;
+}
+.icons span{
+    margin-right: 1rem;}
